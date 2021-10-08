@@ -5,4 +5,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Files.DataLake" Version="12.8.0-alpha.20210803.5" />
+    <PackageReference Include="FluentAssertions" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompressionAddOn\CompressionAddOn.csproj" />
+  </ItemGroup>
+
 </Project>

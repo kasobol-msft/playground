@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.31702.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{787C60D0-DFFB-4E57-AAC3-DBCD2C6E07AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{768DD841-58F0-44EB-A3FB-0EFDFC6AA822}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionAddOn", "CompressionAddOn\CompressionAddOn.csproj", "{917F51FA-A414-4FC6-88CB-26B951AF5F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{787C60D0-DFFB-4E57-AAC3-DBCD2C6E07AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787C60D0-DFFB-4E57-AAC3-DBCD2C6E07AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787C60D0-DFFB-4E57-AAC3-DBCD2C6E07AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917F51FA-A414-4FC6-88CB-26B951AF5F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917F51FA-A414-4FC6-88CB-26B951AF5F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917F51FA-A414-4FC6-88CB-26B951AF5F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917F51FA-A414-4FC6-88CB-26B951AF5F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

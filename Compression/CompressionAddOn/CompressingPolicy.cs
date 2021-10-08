@@ -19,6 +19,7 @@
 
         public override void Process(HttpMessage message, ReadOnlyMemory<HttpPipelinePolicy> pipeline)
         {
+            // TODO this should be implemented as well using sync stream apis.
             throw new NotImplementedException();
         }
 
